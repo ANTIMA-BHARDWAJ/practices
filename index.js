@@ -3,6 +3,8 @@ import express from 'express';
 const app = express();
 const PORT = 3000; // You can change this port
 
+app.set("view engine", "ejs");
+
 /*// Define a route
 app.get('/', (req, res) => {
   res.sendFile("index.html" {root:"C:\\Users\\LENOVO\\Desktop\\New folder\\templates"});
